@@ -1,0 +1,16 @@
+# Bytecode de Python
+__pycache__/
+*.pyc
+
+
+# Entorno virtual
+venv/
+.venv/
+
+# Archivos temporales de editores
+.idea/
+.vscode/
+*.swp
+*.swo
+.*.swp
+.*.swo
