@@ -76,6 +76,4 @@ Realizada con:
 
     Esto iniciará un servidor de desarrollo local. Generalmente, verás una salida indicando la dirección y el puerto donde se está ejecutando la aplicación (por ejemplo, `http://127.0.0.1:5000/`). Abre esta dirección en tu navegador para ver la aplicación en funcionamiento.
 
-    **Nota:** Si recibes un error indicando que `flask` no se encuentra como comando, asegúrate de que el entorno virtual esté activado y que Flask esté instalado en él (revisa el paso 5). Si aún tienes problemas, puede que necesites configurar la variable de entorno `FLASK_APP` para indicarle a Flask cuál es el archivo principal de tu aplicación (por ejemplo, `export FLASK_APP=app.py` en Linux/macOS o `set FLASK_APP=app.py` en Windows antes de ejecutar `flask run`).
-
 ¡Con estos pasos, deberías tener tu proyecto de Flask en funcionamiento en tu entorno local!
