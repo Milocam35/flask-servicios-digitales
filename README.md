@@ -71,7 +71,7 @@ Realizada con:
     Finalmente, para iniciar la aplicación Flask, ejecuta el siguiente comando:
 
     ```bash
-    flask run
+    python3 main.py
     ```
 
     Esto iniciará un servidor de desarrollo local. Generalmente, verás una salida indicando la dirección y el puerto donde se está ejecutando la aplicación (por ejemplo, `http://127.0.0.1:5000/`). Abre esta dirección en tu navegador para ver la aplicación en funcionamiento.
