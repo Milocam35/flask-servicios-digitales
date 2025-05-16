@@ -59,7 +59,7 @@ Realizada con:
     Una vez activado, verás el nombre del entorno virtual (`(venv)`) al principio de tu línea de comandos.
 
 5.  **Instalar las dependencias:**
-    El proyecto probablemente incluirá un archivo `requirements.txt` que lista todas las bibliotecas necesarias. Instala estas dependencias utilizando pip (el gestor de paquetes de Python):
+    El proyecto incluye un archivo `requirements.txt` que lista todas las bibliotecas necesarias. Instala estas dependencias utilizando pip (el gestor de paquetes de Python):
 
     ```bash
     pip install -r requirements.txt
