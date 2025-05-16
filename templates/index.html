@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block title %}Inicio{% endblock %}
+
+{% block content %}
+<div class="empresa-header" style="text-align:center; margin-top:30px;">
+    <!-- Logo de la empresa -->
+<img src="{{ url_for('static', filename='images/empresalogo.jpg') }}" alt="Logo de la empresa" class="logo-empresa">    <!-- Nombre de la empresa -->
+    <h1 class="titulo">Servicios Financieros Digitales</h1>
+</div>
+
+<!-- Breve bienvenida -->
+<p style="text-align:center; font-size:1.2em; margin-bottom:30px;">
+    Bienvenido a nuestra plataforma de servicios financieros digitales. ¡Tu futuro financiero comienza aquí!
+</p>
+
+<!-- Imagen de portada -->
+<div style="text-align:center;">
+    <img src="{{ url_for('static', filename='img/finanzas.jpg') }}" alt="Imagen de portada" style="max-width:90%; height:auto; border-radius:10px;">
+</div>
+{% endblock %}
