@@ -1,7 +1,10 @@
 from flask import Flask, render_template, request
 from datetime import datetime
+from grafico import generar_grafico_servicios
 
 app = Flask(__name__)
+
+generar_grafico_servicios()
 
 @app.before_request
 def log_request_info():

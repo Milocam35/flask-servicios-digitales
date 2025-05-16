@@ -1,0 +1,47 @@
+.analitica-contenedor {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 16px;
+}
+
+.analitica-titulo {
+    color: #1a237e;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.analitica-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    justify-items: center;
+    align-items: start;
+}
+.tabla-servicios {
+    border-collapse: collapse;
+    width: 320px;
+    margin-bottom: 20px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 12px rgba(26,35,126,0.07);
+}
+
+.tabla-servicios th, .tabla-servicios td {
+    border: 1px solid #e3e6f0;
+    padding: 12px 16px;
+    text-align: left;
+}
+
+.tabla-servicios th {
+    background: #1a237e;
+    color: #fff;
+}
+
+.grafico-servicios {
+    width: 100%;
+    max-width: 500px; /* Ajusta este valor según lo que necesites */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}

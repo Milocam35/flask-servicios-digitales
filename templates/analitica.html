@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+{% block title %}Analítica{% endblock %}
+
+{% block content %}
+<div class="analitica-contenedor">
+    <h1 class="analitica-titulo">Analítica de Servicios</h1>
+    <div class="analitica-grid">
+        <div>
+            <table class="tabla-servicios">
+                <thead>
+                    <tr>
+                        <th>Servicio</th>
+                        <th>Veces Contratado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Asesoría de Inversiones</td>
+                        <td>34</td>
+                    </tr>
+                    <tr>
+                        <td>Planeación Financiera</td>
+                        <td>27</td>
+                    </tr>
+                    <tr>
+                        <td>Análisis de Riesgo Financiero</td>
+                        <td>19</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div>
+            <img src="{{ url_for('static', filename='images/servicios_grafico.png') }}" alt="Gráfico de servicios" class="grafico-servicios">
+        </div>
+    </div>
+</div>
+{% endblock %}
