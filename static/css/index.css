@@ -50,7 +50,7 @@ main {
 }
 
 .empresa-header img {
-    height: 200px; /* Slightly larger logo */
+    height: 300px; /* Slightly larger logo */
     margin-bottom: 15px;
     border-radius: 15px; /* Slightly more rounded */
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* More pronounced shadow */
@@ -109,6 +109,7 @@ div[style*="text-align:center;"] > img[style*="max-width:90%; height:auto; borde
 }
 
 .logo-empresa {
+    height: 200px;
     margin-bottom: 18px;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(0,0,0,0.08);

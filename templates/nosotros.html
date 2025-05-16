@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+
+{% block title %}Nosotros{% endblock %}
+
+{% block content %}
+<div class="nosotros-contenedor">
+    <!-- Grid de Historia, Misión, Visión, Valores -->
+    <div class="nosotros-grid">
+        <div class="nosotros-card">
+            <h2>Historia</h2>
+            <p>Nuestra empresa fue fundada en 2020 con el objetivo de revolucionar los servicios financieros digitales en la región.</p>
+        </div>
+        <div class="nosotros-card">
+            <h2>Misión</h2>
+            <p>Brindar soluciones financieras innovadoras y accesibles que mejoren la vida de nuestros clientes.</p>
+        </div>
+        <div class="nosotros-card">
+            <h2>Visión</h2>
+            <p>Ser líderes en servicios financieros digitales, reconocidos por nuestra excelencia y compromiso social.</p>
+        </div>
+        <div class="nosotros-card">
+            <h2>Valores</h2>
+            <ul>
+                <li>Innovación</li>
+                <li>Transparencia</li>
+                <li>Compromiso</li>
+                <li>Responsabilidad</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Lista breve de los fundadores con cargos -->
+    <div class="fundadores-lista">
+        <h2>Fundadores</h2>
+        <ul>
+            <li><strong>Ana Martínez</strong> – Directora General</li>
+            <li><strong>Carlos Pérez</strong> – Director de Tecnología</li>
+            <li><strong>Lucía Gómez</strong> – Directora de Operaciones</li>
+        </ul>
+    </div>
+
+    <!-- Foto del equipo -->
+    <div class="equipo-foto">
+        <h1 style="color: #1a237e;">Equipo De Trabajo</h1>
+        <img src="{{ url_for('static', filename='images/equipo.jpg') }}" alt="Foto del equipo" class="img-equipo">
+    </div>
+</div>
+{% endblock %}
